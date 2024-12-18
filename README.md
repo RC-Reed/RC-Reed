@@ -3,6 +3,7 @@
 <h2>👨‍💻 Coding & Cybersecurity Projects:</h2>
 
 - <b>[Active Directory Home Lab](https://github.com/RC-Reed/ActiveDirectoryLab)</b>
+- <b>[Whac-A-Mole Game (Java)](https://github.com/RC-Reed/whac-a-mole-game)</b>
   
 <h2>📄Certifications</h2>
 
