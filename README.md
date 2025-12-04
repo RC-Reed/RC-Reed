@@ -24,7 +24,7 @@ I’m an IT & cybersecurity professional with experience in:
 - ⚙️ Automation & tooling with PowerShell and cloud platforms
 - 🧪 Home lab building (AD, networking, DevSecOps, Linux)
 
-I’m currently building toward **advanced cyber / systems engineering** roles and long-term projects like **Project CronosArc** (my evolving cyber-physical / home lab platform).
+I’m currently building toward **advanced cyber / systems engineering** roles.
 
 ---
 
