@@ -86,20 +86,6 @@ I’m currently building toward **advanced cyber / systems engineering** roles a
 
 ---
 
-## 📈 GitHub Snapshot
-
-<div align="center">
-
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=RC-Reed&show_icons=true&theme=default" alt="Rob's GitHub stats" />
-  
-  <br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RC-Reed" alt="GitHub Streak" />
-
-</div>
-
----
 
 ## 🤳 Connect with Me
 
