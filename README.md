@@ -17,7 +17,7 @@
 - <b>[CompTIA Security+](https://www.credly.com/badges/9904d79c-2634-48e4-b7e8-7ac8d0e19966/public_url)</b>
 - <b>[CompTIA Project+](https://www.credly.com/badges/fdcdafd3-43a9-44de-a3f9-3bbf9289b026/public_url)</b>
 - <b>[Linux Essentials](https://www.credly.com/badges/881c370b-8791-491f-807b-15c73dc117e2/public_url)</b>
-- <b>[CompTIA Project+](https://www.credly.com/badges/fdcdafd3-43a9-44de-a3f9-3bbf9289b026/public_url)</b>
+- <b>[AZ-104 Microsoft Certified: Azure Administrator Associate ](https://learn.microsoft.com/api/credentials/share/en-us/Robert-5873/E66E79F5B80636F?sharingId=2C8DEC95B921729D)</b>
 
 
 <h2> 🤳 Connect with me:</h2>
