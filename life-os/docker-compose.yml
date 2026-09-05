@@ -1,0 +1,59 @@
+# Life OS — self-hosted stack.
+#
+#   cp .env.example .env      # then edit the secrets
+#   docker compose up -d --build
+#   docker compose exec api python -m app.seed --email you@example.com --password '...' --demo
+#
+# The API binds to localhost only. Put a reverse proxy with TLS in front of the
+# web service before exposing any of this beyond your own network.
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-lifeos}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-lifeos}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-lifeos} -d ${POSTGRES_DB:-lifeos}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      LIFEOS_DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-lifeos}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-lifeos}
+      LIFEOS_SECRET_KEY: ${LIFEOS_SECRET_KEY:?set LIFEOS_SECRET_KEY in .env}
+      LIFEOS_VAULT_KEY: ${LIFEOS_VAULT_KEY:-}
+      LIFEOS_INGEST_TOKEN: ${LIFEOS_INGEST_TOKEN:-}
+      LIFEOS_ENVIRONMENT: production
+      LIFEOS_DEBUG: "false"
+      LIFEOS_SCHEDULER_ENABLED: ${LIFEOS_SCHEDULER_ENABLED:-true}
+      LIFEOS_SYNC_INTERVAL_MINUTES: ${LIFEOS_SYNC_INTERVAL_MINUTES:-60}
+      LIFEOS_CORS_ORIGINS: ${LIFEOS_CORS_ORIGINS:-http://localhost:8080}
+    volumes:
+      # Holds generated keys when you don't set them explicitly. Back this up.
+      - api-data:/app/data
+    # Reachable through the web container; not published to the host by default.
+    expose:
+      - "8000"
+
+  web:
+    build: ./web
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "${LIFEOS_PORT:-8080}:80"
+
+volumes:
+  db-data:
+  api-data:

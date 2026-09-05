@@ -1,0 +1,26 @@
+{
+  "data": {
+    "metrics": [
+      {"name": "step_count", "units": "count", "data": [
+        {"date": "2026-09-03 00:00:00 -0400", "qty": 11240},
+        {"date": "2026-09-04 00:00:00 -0400", "qty": 8130},
+        {"date": "2026-09-04 12:00:00 -0400", "qty": 500}
+      ]},
+      {"name": "resting_heart_rate", "units": "bpm", "data": [
+        {"date": "2026-09-04 00:00:00 -0400", "qty": 56},
+        {"date": "2026-09-04 06:00:00 -0400", "qty": 60}
+      ]},
+      {"name": "sleep_analysis", "units": "hr", "data": [
+        {"date": "2026-09-04 00:00:00 -0400", "qty": 7.25}
+      ]},
+      {"name": "weight_body_mass", "units": "kg", "data": [
+        {"date": "2026-09-04 07:00:00 -0400", "qty": 82.1}
+      ]}
+    ],
+    "workouts": [
+      {"id": "w-1", "name": "Running", "start": "2026-09-04 06:30:00 -0400",
+       "duration": 2100, "distance": 3.1, "activeEnergyBurned": 412,
+       "avgHeartRate": {"qty": 148}}
+    ]
+  }
+}

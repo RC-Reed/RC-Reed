@@ -1,0 +1,27 @@
+# Secrets and local state — never commit these.
+.env
+api/data/
+*.db
+*.db-wal
+*.db-shm
+*.key
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+*.local
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.tsbuildinfo

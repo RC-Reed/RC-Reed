@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  /* Chart roles. Charts read these rather than raw hex so a palette change
+     happens in one place. Values are the validated dark-column slots. */
+  --surface-1: #151a23;
+  --grid: #212a38;
+  --text-primary: #e8edf5;
+  --text-secondary: #8b9bb4;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink-900 text-slate-100 antialiased;
+  font-feature-settings: "cv02", "cv03", "cv04", "tnum";
+}
+
+/* Numbers in tables and stat tiles must not jitter as values change. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-ink-600;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+/* Recharts paints a focus ring on the surface element; we handle focus on the
+   interactive wrapper instead. */
+.recharts-wrapper:focus,
+.recharts-surface:focus {
+  outline: none;
+}

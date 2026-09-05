@@ -1,0 +1,9 @@
+Account Number,Account Name,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis Total,Average Cost Basis,Type
+X12345678,Individual - TOD,FXAIX,FIDELITY 500 INDEX FUND,82.451,$191.34,+$0.84,"$15,776.17",+$69.26,+0.44%,"+$3,676.17",+30.38%,45.12%,"$12,100.00",$146.75,Cash
+X12345678,Individual - TOD,NVDA,NVIDIA CORP,18.000,$172.40,-$1.20,"$3,103.20",-$21.60,-0.69%,+$893.20,+40.42%,8.88%,"$2,210.00",$122.78,Cash
+X12345678,Individual - TOD,SPAXX**,FIDELITY GOVERNMENT MONEY MARKET,"3,184.220",$1.00,--,"$3,184.22",--,--,--,--,9.11%,"$3,184.22",$1.00,Cash
+Z98765432,ROTH IRA,FZROX,FIDELITY ZERO TOTAL MARKET INDEX,410.900,$19.88,+$0.05,"$8,168.69",+$20.55,+0.25%,"+$1,268.69",+18.39%,79.94%,"$6,900.00",$16.79,Cash
+Z98765432,ROTH IRA,FXNAX,FIDELITY US BOND INDEX,190.000,$10.42,-$0.01,"$1,979.80",-$1.90,-0.10%,-$70.20,-3.42%,20.06%,"$2,050.00",$10.79,Cash
+Z98765432,ROTH IRA,Pending Activity,,,,,,,,,,,,,
+
+"Brokerage services provided by Fidelity Brokerage Services LLC. Date downloaded 09/05/2026"
