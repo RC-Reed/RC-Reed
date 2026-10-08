@@ -23,7 +23,6 @@ Right now I'm studying for **SC-300** and **AZ-500**, and I start an **M.S. in C
 |---|---|
 | [**AD-MultiDomain-Toolkit**](https://github.com/RC-Reed/AD-MultiDomain-Toolkit) | PowerShell WinForms tool for checking and unlocking accounts across multiple AD domains, with password/logon info and DC scanning. Built for a real help desk, published here in sanitized form (V0 console → V6 GUI). |
 | [**ActiveDirectoryLab**](https://github.com/RC-Reed/ActiveDirectoryLab) | Windows Server 2019 domain controller with AD DS, DNS, DHCP, and NAT; 1,000 users created with a PowerShell script; Windows 10 client joined to the domain. |
-| [**CronosArc**](https://github.com/RC-Reed/CronosArc) | My home lab notebook: Proxmox setup and backup notes, network upgrade logs, and hardware repair write-ups. |
 | [**DevSecOps-CI-Pipeline-Lab**](https://github.com/RC-Reed/DevSecOps-CI-Pipeline-Lab) | GitHub Actions pipeline adding Bandit SAST and container image scanning to the PyGoat app. |
 
 ### Certifications
