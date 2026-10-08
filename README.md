@@ -27,9 +27,9 @@ Right now I'm studying for **SC-300** and **AZ-500**, and I start an **M.S. in C
 
 ### Certifications
 
-Microsoft **AZ-104** Azure Administrator · CompTIA **Security+** · **Network+** · **A+** · **Project+** · **CSIS** · **ITIL 4** Foundation · **AWS** Cloud Practitioner · LPI **Linux Essentials**
+CompTIA **Security+** · Microsoft **AZ-104** Azure Administrator · CompTIA **Network+** · CompTIA **A+** · **ITIL 4** Foundation · In progress: **SC-300**, **AZ-500**
 
-Verified badges: [Security+](https://www.credly.com/badges/9904d79c-2634-48e4-b7e8-7ac8d0e19966/public_url) · [Network+](https://www.credly.com/badges/410d8daa-3a72-426f-a56f-2981de929eb8/public_url) · [AWS](https://www.credly.com/badges/d22fe3b4-485e-4be4-8f87-a9716e9c5b58/linked_in_profile) · [AZ-104](https://learn.microsoft.com/api/credentials/share/en-us/Robert-5873/E66E79F5B80636F?sharingId=2C8DEC95B921729D)
+Verified badges: [Security+](https://www.credly.com/badges/9904d79c-2634-48e4-b7e8-7ac8d0e19966/public_url) · [Network+](https://www.credly.com/badges/410d8daa-3a72-426f-a56f-2981de929eb8/public_url) · [AZ-104](https://learn.microsoft.com/api/credentials/share/en-us/Robert-5873/E66E79F5B80636F?sharingId=2C8DEC95B921729D)
 
 ### Tools I use
 
